@@ -7,9 +7,10 @@ https://www.bilibili.com/video/BV12t4y1K7Kt
 https://www.sveltejs.cn/docs#bind_element_property  
 
 ### 部署github
-1. setting-Secrets and variables-actions-ACCESS_TOKEN    
-2. vite.config.js base: '/svelte-cnode/',  
-3. .github/workflows/deploy.yaml  
+1. settings-Secrets and variables-actions-ACCESS_TOKEN    
+2. settings-pages
+3. vite.config.js base: '/svelte-cnode/', 
+4. .github/workflows/deploy.yaml  
   
 ```bash
 name: GitHub Actions Build and Deploy Demo
